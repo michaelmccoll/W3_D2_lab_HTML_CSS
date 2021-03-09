@@ -1,0 +1,32 @@
+.where-togo {
+    background-color: #040E27;   
+}
+
+.inputs {
+    margin: 20px;
+
+}
+
+input {
+    background-color: #040E27;
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+    margin: 5px  
+}
+
+h2 {
+    color: white;
+    font: 26px solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#search_button {
+    height: 30px;
+    width: 200px;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+}

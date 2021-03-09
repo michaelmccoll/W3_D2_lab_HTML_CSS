@@ -1,0 +1,68 @@
+#favourite {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+}
+
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+    width: 250px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 10px solid white; */
+    margin: 20px;
+    flex: 25%;
+  }
+  
+  .favourite-bg-2 {
+    /* padding: 20px; */
+    background-image: url(../img/favourites/australia.png);
+    width: 250px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 10px solid white; */
+    margin: 20px;
+    flex: 25%;
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+    width: 250px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 10px solid white; */
+    margin: 20px;
+    flex: 25%;
+  }
+
+  main > section >div > h2 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+    font-size: 20pt;
+  }
+
+  main > section > div > p {
+    color: white;
+    text-align: center;
+  }
+
+  main > section > div > button {
+    background-color:lightseagreen;
+    text-align: center;
+    border: white;
+    color: white;
+    cursor: pointer;
+  }
+
+/* #grid-favourites-container{  
+  display: grid;
+  grid-template-areas: 
+  'bg-1 bg-2 bg-3';
+
+  } */
+
+    
