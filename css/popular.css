@@ -1,0 +1,55 @@
+.popular {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+  }
+
+.item1 {
+    grid-area: one;
+    background-image: url(../img/destination/italy.png);
+}
+
+.item2 {
+    grid-area: two;
+    background-image: url(../img/destination/brazil.png);
+}
+.item3 {
+    grid-area: three;
+    background-image: url(../img/destination/america.png);
+}
+.item4 {
+    grid-area: four;
+    background-image: url(../img/destination/nepal.png);
+}
+.item5 {
+    grid-area: five;
+    background-image: url(../img/destination/maldives.png);
+}
+.item6 {
+    grid-area: six;
+    background-image: url(../img/destination/indonesia.png);
+}
+
+main > section > div > div > h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
+    bottom: 2px;
+    left: 16px;
+    font-size: 18px;
+}
+
+main > section > div > div > button {
+    background-color:lightseagreen;
+    text-align: center;
+    border: white;
+    color: white;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+#container {
+    display: grid;
+    grid-template-areas:
+    'one two three'
+    'four five six';
+  }
